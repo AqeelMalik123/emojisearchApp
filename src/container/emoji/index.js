@@ -33,7 +33,7 @@ const EmojiApp = () => {
 
           {data.map(emoji =>
           <div className="card" key={emoji.title}>
-          <div className="card-body" onClick={() => {navigator.clipboard.writeText(emoji.symbol);alert("Emoji Copy")}}>
+          <div className="card-body" onClick={() => {navigator.clipboard.writeText(emoji.symbol)}}>
             {emoji.symbol} {emoji.title}
           </div>
         </div>
@@ -42,7 +42,7 @@ const EmojiApp = () => {
           <div className="col">
           {data.map(emoji =>
           <div className="card" key={emoji.title}>
-          <div className="card-body" onClick={() => {navigator.clipboard.writeText(emoji.symbol);alert("Emoji Copy")}}>
+          <div className="card-body" onClick={() => {navigator.clipboard.writeText(emoji.symbol)}}>
             {emoji.symbol} {emoji.title}
           </div>
         </div>
@@ -52,7 +52,7 @@ const EmojiApp = () => {
           <div className="col">
           {data.map(emoji =>
           <div className="card" key={emoji.title}>
-          <div className="card-body" onClick={() => {navigator.clipboard.writeText(emoji.symbol);alert("Emoji Copy")}}>
+          <div className="card-body" onClick={() => {navigator.clipboard.writeText(emoji.symbol)}}>
             {emoji.symbol} {emoji.title}
           </div>
         </div>
